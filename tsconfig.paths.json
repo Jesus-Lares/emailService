@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@context/*": ["./src/context/*"],
+      "@errors": ["./src/core/errors./index"],
+      "@router": ["./src/core/router/index"],
+      "@types/*": ["./src/core/types/*"],
+      "@interface/*": ["./src/core/interface/*"],
+      "@helpers/*": ["./src/core/helpers/*"],
+      "@utils/*": ["./src/core/utils/*"],
+      "@constants/*": ["./src/core/constants/*"],
+      "@middlewares/*": ["./src/core/middlewares/*"],
+      "@config/*": ["./src/core/config/*"],
+      "@src/*": ["./src/*"]
+    }
+  }
+}
